@@ -1,7 +1,7 @@
 package cn.edu.usst.plj;
 
 import java.util.Scanner;
-
+//test change
 public class Count {
 
 	public static void main(String[] args) {
