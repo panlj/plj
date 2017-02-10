@@ -1,0 +1,31 @@
+import java.util.*;
+public class Test {
+	public static void main(String[] args){
+		Random rd=new Random();
+		int go,t=0;
+		System.out.println("终结纠结症\n");
+		for(int i=1;i<=100;i++)
+		{
+			go=rd.nextInt(2);
+			if (go==1)
+				{
+				System.out.print("  去吧   ");
+				t++;
+				}
+			else
+				System.out.print("  不去   ");
+			if(i%10==0)
+				System.out.println();
+		}
+		double r=t/100.0;
+		System.out.println("\n让我们一起来见证奇迹的时刻！");
+		if(r>0.5)
+			System.out.println("去吧，皮卡丘!");
+		else if(r==0.5)
+			System.out.println("平局，分身吧！");
+		else
+			System.out.println("不去，就不去！");
+		
+		
+	}
+}
